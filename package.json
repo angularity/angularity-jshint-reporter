@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/bguiz/angularity-jshint-reporter/issues"
   },
-  "homepage": "https://github.com/bguiz/angularity-jshint-reporter"
+  "homepage": "https://github.com/bguiz/angularity-jshint-reporter",
+  "dependencies": {
+    "through2": "^0.6.3"
+  }
 }
