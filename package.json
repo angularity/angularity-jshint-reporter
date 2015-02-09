@@ -1,0 +1,27 @@
+{
+  "name": "angularity-jshint-reporter",
+  "version": "0.0.0",
+  "description": "The default JsHint reporter for projects built using Angularity",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bguiz/angularity-jshint-reporter"
+  },
+  "keywords": [
+    "jshint",
+    "angularity",
+    "reporter"
+  ],
+  "author": "bguiz",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/bguiz/angularity-jshint-reporter/issues"
+  },
+  "homepage": "https://github.com/bguiz/angularity-jshint-reporter",
+  "dependencies": {
+    "through2": "^0.6.3"
+  }
+}
