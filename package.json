@@ -1,6 +1,6 @@
 {
   "name": "angularity-jshint-reporter",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "The default JsHint reporter for projects built using Angularity",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,7 @@
     "angularity",
     "reporter"
   ],
-  "author": "bguiz",
+  "author": ["bguiz", "impaler", "bholloway"],
   "license": "GPLv3",
   "bugs": {
     "url": "https://github.com/angularity/angularity-jshint-reporter/issues"
