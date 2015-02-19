@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bguiz/angularity-jshint-reporter"
+    "url": "https://github.com/angularity/angularity-jshint-reporter"
   },
   "keywords": [
     "jshint",
@@ -18,9 +18,9 @@
   "author": "bguiz",
   "license": "GPLv3",
   "bugs": {
-    "url": "https://github.com/bguiz/angularity-jshint-reporter/issues"
+    "url": "https://github.com/angularity/angularity-jshint-reporter/issues"
   },
-  "homepage": "https://github.com/bguiz/angularity-jshint-reporter",
+  "homepage": "https://github.com/angularity/angularity-jshint-reporter",
   "dependencies": {
     "through2": "^0.6.3"
   }
