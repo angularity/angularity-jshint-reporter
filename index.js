@@ -1,3 +1,2 @@
-var angularityJshintReporter = require('./reporter');
-
-module.exports = angularityJshintReporter(80);
+// TODO decide whether conform to jshint reporter standard else just bring the implementation into this file
+module.exports = require('./reporter');
