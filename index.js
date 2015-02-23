@@ -1,2 +1,3 @@
-// TODO decide whether conform to jshint reporter standard else just bring the implementation into this file
-module.exports = require('./reporter');
+'use strict';
+
+module.exports = require('path').join(__dirname, 'angularity-reporter.js');
