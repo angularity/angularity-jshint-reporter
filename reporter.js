@@ -3,11 +3,9 @@ var through = require('through2');
 /**
  * A terse reporter for JSHint that uses the format as <code>traceurReporter</code>.
  * Outputs elements from the input stream without transformation.
- *
- * @param {number?} bannerWidth The width of banner comment.
  * @returns {stream.Through} A through stream that performs the operation of a gulp stream
  */
-function angularityJshintReporter(bannerWidth) {
+function angularityJshintReporter() {
   var output = [];
   var item   = '';
   var prevfile;
@@ -39,7 +37,7 @@ function angularityJshintReporter(bannerWidth) {
       output.push(item);
     }
     if (output.length) {
-      var width = Number(bannerWidth) || 0;
+      var width = Number(80) || 0;
       var hr    = new Array(width + 1);   // this is a good trick to repeat a character N times
       var start = (width > 0) ? (hr.join('\u25BC') + '\n') : '';
       var stop  = (width > 0) ? (hr.join('\u25B2') + '\n') : '';
@@ -47,6 +45,6 @@ function angularityJshintReporter(bannerWidth) {
     }
     done();
   });
-};
+}
 
 module.exports = angularityJshintReporter;
