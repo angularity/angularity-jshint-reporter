@@ -1,3 +1,5 @@
+'use strict';
+
 var through = require('through2');
 
 /**
@@ -37,7 +39,7 @@ function angularityJshintReporter() {
       output.push(item);
     }
     if (output.length) {
-      var width = Number(80) || 0;
+      var width = 80;
       var hr    = new Array(width + 1);   // this is a good trick to repeat a character N times
       var start = (width > 0) ? (hr.join('\u25BC') + '\n') : '';
       var stop  = (width > 0) ? (hr.join('\u25B2') + '\n') : '';
@@ -47,4 +49,6 @@ function angularityJshintReporter() {
   });
 }
 
-module.exports = angularityJshintReporter;
+module.exports = {
+  streamReporter: angularityJshintReporter
+};
