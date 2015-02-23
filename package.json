@@ -1,6 +1,6 @@
 {
   "name": "angularity-jshint-reporter",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "The default JsHint reporter for projects built using Angularity",
   "main": "index.js",
   "scripts": {
